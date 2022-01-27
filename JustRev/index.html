@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/app_cs.css" />
+    <title>Learning of JS</title>
+</head>
+
+
+<body>
+    <h1 class="custom_header"> This is Header one!</h1>
+    <div class="custom_div">
+
+        <button class="custom-primary-btn" onclick="showAgePrompt()"> click !</button>
+        <button class="custom-danger-btn" onclick="resetData()"> resetData</button>
+
+
+    </div>
+    <div id="custom_div"></div>
+
+    <div class="custom_div_ver">
+        <button class="custom-primary-btn" id="addimages" onclick="addimagesdynamically()">Add Iamges</button>
+
+        <div class="img_div" id="img_div_dynamic">
+
+        </div>
+
+    </div>
+    <div class="vertical_view">
+        <input class="custom_input" id="email_value" type="text" placeholder="sample@gmail.com" />
+        <input class="custom_input" id="password_value" type="password" placeholder="password" />
+        <button class="custom-primary-btn" onclick="getInputValues()">getInputValues</button>
+    </div>
+    <script src="./myCustom.js"></script>
+</body>
+
+</html>

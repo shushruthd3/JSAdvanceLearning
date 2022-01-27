@@ -1,0 +1,32 @@
+.custom_header{
+    border: 2px solid rebeccapurple;text-align: center;justify-content: center;align-items: center
+}
+.custom_div{
+    justify-content:space-evenly;border: 2px solid greenyellow ;display: flex ;flex-direction: row
+}
+.custom_div_ver{
+    justify-content:space-evenly;border: 2px solid greenyellow ;display: flex ;flex-direction: column
+}
+.custom-primary-btn ,.custom-danger-btn{
+    border-radius: 5px;text-align: center;justify-content: center;align-items: center;background-color: blue;color: red;width:190;height: 50;
+}
+
+.custom-primary-btn:hover ,.custom-danger-btn:hover{
+    box-shadow:   1px 2px green
+}
+.img_div{
+    margin: 30; padding: 40;align-items: center;background-color:purple;justify-content: space-evenly;
+}
+.img_div img{
+    background-color: green;margin: 30;padding: 40;width: 80;height: 80;
+}
+.custom_input{
+    border-radius: 10px;border-color: cornflowerblue;height: 40;width: 190;
+}
+
+.vertical_view { 
+    display: flex;flex-direction: column; padding: 20px;margin: 40px;justify-content: space-between;
+}
+.vertical_view input{ 
+    display: flex;flex-direction: column; padding: 20px;margin: 10px;justify-content: space-between;
+}
